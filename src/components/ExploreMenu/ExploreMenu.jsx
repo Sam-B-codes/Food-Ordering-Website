@@ -8,7 +8,7 @@ const ExploreMenu = ({category,setCategory}) => {
     <div className='explore-menu' id='explore-menu'>
             <h1> Explore Our Menu</h1>
 
-            <p className='explore-menu-text'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, excepturi perferendis itaque aperiam voluptatum culpa aliquam cupiditate. Recusandae et expedita sit soluta ea libero iure consequatur obcaecati.</p>
+            <p className='explore-menu-text'>"Hungry? We’ve Got You Covered." Explore a world of flavors delivered with Spartan speed. Your favorite dish is waiting—find it, click it, eat it. [Start Exploring]</p>
             <div className='explore-menu-list'>
           
             {menu_list.map((item,index)=>{       //map method sa call kreng

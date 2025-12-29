@@ -84,6 +84,7 @@ Divider */
 
 .footer-content-left img {
     width: 150px;
+    border-radius: 100%;
 }
 
 /* Paragraph */

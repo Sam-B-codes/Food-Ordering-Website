@@ -130,10 +130,47 @@
 }
 
 /* Logo */
-.logo {
+/* .logo {
     width: 140px;
     cursor: pointer;
+} */
+
+
+.logo {
+  width: 120px;          /* default desktop size */
+  height: auto;
+  cursor: pointer;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+  border-radius: 100%;
 }
+
+/* Hover effect (subtle, professional) */
+.logo:hover {
+  transform: scale(1.03);
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .logo {
+    width: 110px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .logo {
+    width: 95px;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .logo {
+    width: 85px;
+  }
+}
+
 
 /* Menu */
 .navbar-menu {
@@ -187,20 +224,20 @@
 }
 
 /* Cart icon */
-.navbar-search-icon {
-    position: relative;
+/* .navbar-search-icon { */
+    /* position: relative;
 }
 
 /* Cart notification dot */
-.navbar-search-icon .dot {
+/* .navbar-search-icon .dot {
     position: absolute;
     top: -5px;
     right: -5px;
     width: 8px;
     height: 8px;
     background-color: #ff4c24;
-    border-radius: 50%;
-}
+    border-radius: 50%; */
+/* }  */
 
 /* Sign In button */
 .navbar-right button {
@@ -232,4 +269,23 @@
     .navbar-right {
         gap: 15px;
     }
+}
+.navbar-search-icon {
+  position: relative;
+}
+
+.dot {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #ff4c24;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
 }
