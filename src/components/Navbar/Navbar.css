@@ -289,3 +289,24 @@
   justify-content: center;
   font-weight: bold;
 }
+.navbar-menu a {
+  text-transform: capitalize;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.navbar-menu a:hover {
+  color: #ff4c24;
+}
+
+.navbar-menu a.active {
+  color: #ff4c24;
+  border-bottom: 2px solid #ff4c24;
+  padding-bottom: 4px;
+}
+
+.signin-btn {
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 500;
+}

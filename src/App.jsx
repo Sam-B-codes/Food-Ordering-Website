@@ -7,7 +7,7 @@ import Home from "./pages/Home/Home";
 import Footer from "./components/Footer/Footer";
 import LoginPopup from "./components/LoginPopup/LoginPopup";
 import  { useState } from "react";
-
+import Reservation from './pages/Reservation/Reservation'
 
 const App = () => {
 
@@ -24,6 +24,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/order" element={<PlaceOrder />} />
+          <Route path="/reservation" element={<Reservation />} />
+
         </Routes>
       </div>
       <Footer />
