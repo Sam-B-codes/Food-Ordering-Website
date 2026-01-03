@@ -110,7 +110,7 @@ const Navbar = ({ setShowLogin }) => {
 
       {/* LOGO */}
       <Link to='/'>
-        <img src={assets.logo2} alt="Tomato Logo" className='logo' />
+        <img src={assets.logo4} alt="Tomato Logo" className='logo' />
       </Link>
 
       {/* MENU */}

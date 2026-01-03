@@ -61,10 +61,14 @@ import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
 import logo2 from './logo2.png'
+import logo3 from './logo3.png'
+import logo4 from './logo4.png'
 
 export const assets = {
     logo,
     logo2,
+    logo3,
+    logo4,
     basket_icon,
     header_img,
     header1_img,
